@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>PESE-300 E-Portfolio | Mahi Jain</title>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: 'Montserrat', sans-serif;
+      background: linear-gradient(135deg, #e0f7fa, #fce4ec);
+      display: flex;
+      flex-direction: row;
+      min-height: 100vh;
+      color: #333;
+    }
+
+    aside {
+      width: 280px;
+      background: rgba(255, 255, 255, 0.6);
+      backdrop-filter: blur(10px);
+      padding: 30px 20px;
+      box-shadow: 2px 0 10px rgba(0,0,0,0.1);
+      position: sticky;
+      top: 0;
+      height: 100vh;
+    }
+
+    aside img {
+      width: 140px;
+      border-radius: 50%;
+      display: block;
+      margin: 0 auto 15px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+
+    aside h2 {
+      text-align: center;
+      color: #0077b6;
+      margin-bottom: 10px;
+    }
+
+    aside p {
+      font-size: 0.95em;
+      margin: 8px 0;
+      text-align: center;
+    }
+
+    main {
+      flex: 1;
+      padding: 40px;
+      animation: fadeIn 1s ease-in;
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(20px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    header {
+      background: linear-gradient(to right, #0077b6, #00b4d8);
+      color: white;
+      padding: 25px;
+      text-align: center;
+      border-radius: 12px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+      margin-bottom: 30px;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 2.5em;
+      letter-spacing: 1px;
+      animation: glow 2s ease-in-out infinite alternate;
+    }
+
+    @keyframes glow {
+      from { text-shadow: 0 0 10px #fff; }
+      to { text-shadow: 0 0 20px #ffb6b9; }
+    }
+
+    section {
+      margin-bottom: 40px;
+    }
+
+    h2 {
+      color: #0077b6;
+      border-bottom: 2px solid #0077b6;
+      padding-bottom: 5px;
+      margin-bottom: 15px;
+    }
+
+    .week {
+      background: rgba(255, 255, 255, 0.8);
+      margin: 20px 0;
+      padding: 20px;
+      border-radius: 16px;
+      box-shadow: 0 8px 16px rgba(0,0,0,0.1);
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    .week:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 12px 24px rgba(0,0,0,0.15);
+    }
+
+    .week h3 {
+      margin-top: 0;
+      color: #023e8a;
+      font-size: 1.2em;
+    }
+
+    .week ul {
+      padding-left: 20px;
+      margin-top: 10px;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      background: rgba(255,255,255,0.6);
+      font-size: 0.9em;
+      border-radius: 8px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    }
+
+    @media screen and (max-width: 768px) {
+      body {
+        flex-direction: column;
+      }
+      aside {
+        width: 100%;
+        height: auto;
+        position: static;
+        box-shadow: none;
+      }
+    }
+  </style>
+</head>
+<body>
+
+<aside>
+  <img src="mahi.jpg" alt="Mahi Jain">
+  <h2>About Me</h2>
+  <p><strong>Name:</strong> Mahi Jain</p>
+  <p><strong>Course:</strong> B.Tech (CSE)</p>
+  <p><strong>Semester:</strong> 03</p>
+  <p><strong>Section:</strong> A1</p>
+  <p><strong>Roll No:</strong> 31</p>
+</aside>
+
+<main>
+  <header>
+    <h1>PESE-300 E-Portfolio</h1>
+  </header>
+
+  <section>
+    <h2>Course Reflection</h2>
+    <p>This e-portfolio represents my journey throughout this semester in Practical For Employability Skills Enhancement (PESE-300). Over these weeks, I explored different aspects of communication and how it plays a vital role in both personal and professional life. This course helped me recognize my strengths and weaknesses and understand the true value of effective communication.</p>
+  </section>
+
+  <section>
+    <h2>Key Learnings</h2>
+
+    <div class="week"><h3>Week 1: Importance of Communication</h3><ul><li>Undertood the role of communication in both personal and professional life.</li><li>I learned that communication helps us to understand others and be understand by others.</li><li>Learned that effective communication helps in teamwork, build relationships, creates clarity in tasks.</li></ul></div>
+    <div class="week"><h3>Week 2: SWOC Analysis</h3><ul><li>Being aware of my strengths and weaknesses helped me to identify areas of improvement and growth in both personal and professional life.</li><li>Self-awareness is the first step towards growth.</li><li>Realized SWOC analysis is a useful tool for both personal development and teamwork improvement.</li></ul></div>
+    <div class="week"><h3>Week 3: Learning from Feedbacks</h3><ul><li>I learned that feedbacks helps us to see our mistakes and improve next time.</li><li>I understood that accepting feedbacks positively helps to grow faster.</li><li>I understood that everyone makes mistake, but what matters is learning from them.</li></ul></div>
+    <div class="week"><h3>Week 4: Activities and Achievements</h3><ul><li>Understood that involvement in activities builds confidence, teamwork and leadership skills.</li><li>Realized that acknowledging achievements motivates to improve and goal setting.</li><li>Learned the importance of self reflection in recognizing personal growth through participation and achievements.</li></ul></div>
+    <div class="week"><h3>Week 5: Importance of Proper Introduction</h3><ul><li>Learned to structure a self introduction and introduce oneself effectively with clarity and confidence.</li><li>Understood that a good introduction creates a positive first impression.</li><li>Practiced answering interview questions to frame a professional self introduction.</li></ul></div>
+    <div class="week"><h3>Week 6: Introduction Guidance Based on Feedback</h3><ul><li>Importance of body posture and gestures like maintaining proper eye contact, etc.</li><li>Use a friendly tone yet confident tone.</li><li>Realized that improvements in confidence, expression and voice control can make a big difference.</li></ul></div>
+    <div class="week"><h3>Week 7: Creative Project and Presentation</h3><ul><li>Lerned how to use simple things around me to craete something useful and creative.</li><li>Understood the importance of teamwork and sharing ideas while working on a project.</li><li>Helped me to think creatively and find new ways to solve a problem.</li></ul></div>
+    <div class="week"><h3>Week 8: Comprehension Exercise</h3><ul><li>Developed reading skills by interpreting comprehension passage.</li><li>Improved ability to understand, summarize and express ideas clearly in written form.</li></ul></div><div><div class="week">
+      <h3>Week 9: Ted-talks and Presentation Skills</h3>
+      <ul>
+        <li>Realized that confidence matters more than perfection while speaking.</li>
+        <li>Learned presentation skills – structuring ideas, maintaining confidence and managing audience interaction.</li>
+      </ul>
+    </div>
+
+    <div class="week">
+      <h3>Week 10: Art of Conversation and Extempore</h3>
+      <ul>
+        <li>Learned that with calm mind and clear understanding it's possible to speak well on any topic.</li>
+        <li>Practiced body language and voice modulation helps in impactful presentation.</li>
+      </ul>
+    </div>
+</div>
+        
